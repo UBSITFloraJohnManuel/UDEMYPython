@@ -9,7 +9,7 @@ class Queue:
         new_node = Node(value)
         self.first = new_node
         self.last = new_node
-        self.length = 1
+        self.length = 2
 
     def print_queue(self):
         temp = self.first
